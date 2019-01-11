@@ -174,7 +174,7 @@ a{
 }
 
 .port .port-closed{
-        opacity: 0.3;
+        opacity:1.0;
 }
 
 .port .port-open {
@@ -194,7 +194,7 @@ a{
     display: inline-block;
     width: 138px;
     height: 96px;
-    opacity: 0.45;
+    opacity: 0.6;
     text-align: center;
 }
 
