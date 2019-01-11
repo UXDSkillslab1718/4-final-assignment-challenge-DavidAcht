@@ -88,13 +88,30 @@ p {
 
 h2{
     font-family: 'Trueno Ultra Black';
-    color: #424B54;
+    color: #FFFFFF;
     margin: 0px;
 }
 
 .Portfolio h2{
     padding-top: 200px;
-    padding-bottom: 900px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.Portfolio p{
+    color: #FFF;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 1000px;
+}
+.Portfolio a{
+    color: #FFF;
+    
+}
+
+.Portfolio a:hover{
+    color: #000000;
+    opacity: 0.3;
 }
 
 h3{
@@ -117,6 +134,8 @@ h4{
 section{
     padding: 60px 0;
 }
+
+
 
 .loading-page{
     max-width: 950px;
@@ -141,8 +160,6 @@ a{
   background-size: contain;
 
 }
-
-
 
 .bounce {
   -moz-animation: bounce 2s infinite;
