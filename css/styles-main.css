@@ -5,6 +5,7 @@
 #BBE1C3 - Seafoam Green
 #424B54 - Space Gray
 */
+
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
@@ -93,7 +94,8 @@ h2{
 }
 
 .Portfolio h2{
-    padding-top: 200px;
+    margin-top: 200px;
+    padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
 }
@@ -101,18 +103,10 @@ h2{
 .Portfolio p{
     color: #FFF;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 100px;
     padding-bottom: 1000px;
 }
-.Portfolio a{
-    color: #FFF;
-    
-}
 
-.Portfolio a:hover{
-    color: #000000;
-    opacity: 0.3;
-}
 
 h3{
     font-family: 'Trueno Light';
@@ -165,6 +159,43 @@ a{
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+}
+
+.port {
+    width: 109px;
+    height: 96px;
+    position: relative;
+    display: inline-block;
+    margin-top: 300px;
+    text-align: center;
+    left: 42%;
+    margin-bottom: 600px;
+
+}
+
+.port .port-closed{
+        opacity: 0.3;
+}
+
+.port .port-open {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    text-align: center;
+}
+.port:hover .port-closed{
+    display: none;
+}
+
+.port:hover .port-open{
+    display: inline-block;
+    width: 138px;
+    height: 96px;
+    opacity: 0.45;
+    text-align: center;
 }
 
 
@@ -240,3 +271,6 @@ header p{
 }
 
 /* scripts*/
+html {
+  scroll-behavior: smooth;
+}
